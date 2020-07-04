@@ -42,39 +42,32 @@ function getBookById(books,bookId) {
    }
 }                    
 
-// need help with the bellow 
+
+
 
 let done=[];
-let bag=[];
-let items =[ ];
-let price=[];
-let bill=[];
-let quantity=[];
-
+let bag =[ ];
 while (done!="انتهيت" ) {
-{ 
+
   items = prompt( " write down your list "); 
-  price= prompt( " write down the price");
-  quantity= prompt( " write down the quantity")
+  price= parseInt(prompt( " write down the price"));
+  quantity=parseInt(prompt( " write down the quantity"));
 
   bag.push( items);
   bag.push ( price);
   bag.push(quantity );
-}
-{bill=prompt( " write down انتهيتif your done")
+  done=prompt( " write down انتهيتif your done")
 
-  if (done=" انتهيت")
-    console.log ( items);
-    console.log ( price);}
-{
-function bill() { 
-  console.log( items)
-  console.log( prices)
-  
-}
+  bag.push(bag)
+  console.log(bag)
 }
 
-}
+
+ 
+
+
+
+
 
 
 
